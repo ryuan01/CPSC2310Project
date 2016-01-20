@@ -1,0 +1,17 @@
+MEETING friday 22 Jan 2016 @ 7 PM @ Google Hangout
+
+MEETING AGENDA:
+- @pre expects everyone to be done with textual use-cases
+- @pre HAND-IN your work in your branch please
+- review how Google Hangout is working out for us
+- assign new work (who will document?)
+- discuss changes due to interview and assign work according
+- get everyone's progress input (hours, what you worked on)
+
+MEETING sunday 24 Jan 2016 @ 12 PM @ (library?)
+
+MEETING AGENDA:
+- @pre expects everyone to be done with graphical use-cases
+- @pre HAND-IN your work in LucidChart (the folder I added everyone in)
+- discuss plan for next week
+- see if any diagram needs modification
