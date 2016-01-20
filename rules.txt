@@ -1,5 +1,5 @@
 GitHub Rules:
-1. please check under /plan to see the latest plan this week
+1. please check under /agenda to see the latest agenda this week
 2. please only push under your own folder, i.e. your name
 3. I will merge.
 4. please do not delete.
