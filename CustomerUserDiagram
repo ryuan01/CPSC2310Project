@@ -43,7 +43,7 @@ Quality Requirements
 
 
 
-Use Case Name	CustomerReservesaCar
+Use Case Name	CustomerReservesaCarinPerson
 Participating Actors	Initiated by Customer
 Carried out by Clerk
 Communicates with DataBase
@@ -55,3 +55,14 @@ Flow of Events	1.	Customer selects a date for reservation
 Entry Conditions	Customer selects the reservation option and selects a date for reservation.
 Quality Requirements	Responds within 5 seconds. 
 
+
+Use Case Name	CustomerReservesaCarOnline
+Participating Actors	Initiated by Customer
+Communicates with DataBase
+Flow of Events	1.	Customer selects a date for reservation
+2.	Customer is shown a list of available cars to be reserved for set date.
+3.	Customer selects car to be reserved. 
+4.	A request to the database to reserve car for set date from the website.
+5.	Confirmation number is sent to Customer 
+Entry Conditions	Customer selects the reservation option and selects a date for reservation.
+Quality Requirements	Responds within 5 seconds. 
