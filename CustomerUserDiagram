@@ -40,3 +40,18 @@ Flow of Events	1.	Customer returns car to specified location
 4.	Clerk sets car to available
 Entry Conditions	Customer returns with rented car
 Quality Requirements	
+
+
+
+Use Case Name	CustomerReservesaCar
+Participating Actors	Initiated by Customer
+Carried out by Clerk
+Communicates with DataBase
+Flow of Events	1.	Customer selects a date for reservation
+2.	Clerk queries for a list of available cars to be reserved for set date.
+3.	Customer selects car to be reserved. 
+4.	Clerk sends a request to the database to reserve car for set date.
+5.	Clerk sends confirmation number to Customer 
+Entry Conditions	Customer selects the reservation option and selects a date for reservation.
+Quality Requirements	Responds within 5 seconds. 
+
