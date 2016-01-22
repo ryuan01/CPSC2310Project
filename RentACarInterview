@@ -1,0 +1,9 @@
+- Car is never taken out of a database
+- Databases to think about: Maintanence, Car, Truck, Customer, Reservation, Insurance, previous damages database.
+- Searching for cars by date should be manditory. 
+- Some companies can be cancelled by last name. 
+- Downpayments not necessary
+- Diagram is used to mark down previous damages before renting.
+- Managers have security options such as viewing event logs.
+- Canada Privacy Act
+- license and credit card can be put on file but not viewable by everyone.
