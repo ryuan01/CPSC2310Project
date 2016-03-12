@@ -14,7 +14,7 @@
 <body>
     <header>
         <h1>
-            DiVA
+            <a href = "index.html">DiVA</a>
         </h1>
         <h3>
             Distributed Vehicle Administration System
@@ -33,14 +33,14 @@
     
     <main>
         <div class="login">
-            <form>
+            <form name="login_form" onsubmit="return validateForm()">
                 Username: <input id="username" type = "text"  name="username"><br>
                 Password: <input id="password" type = "password"  name="password"><br>
-                <button type="button" onclick="getUserInfo()">Login</button>
             </form>
-            
+            <p id="validator"> </p>
+            <button type="button" onclick="getUserInfo()">Login</button>
         </div>
-        <p>
+        <p id="greetings">
             Hello everyone! Welcome.    
         </p>
         <form class="search">

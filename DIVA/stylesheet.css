@@ -1,5 +1,9 @@
+header a {
+    text-decoration: none;
+}
 body {
-    
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .login {
     text-align: right;
