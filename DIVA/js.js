@@ -10,6 +10,8 @@ function validateForm() {
     if ((uField == null || pField == null) || (uField == "" || pField == "")) {
         return false;
     }
+    username = uField;
+    password = pField;
     return true;
     
 }
@@ -18,18 +20,16 @@ function getUserInfo() {
     
     if (validateForm()) {
         
-        username = document.getElementById("username").value;
-        password = document.getElementById("password").value;
-    
-        document.getElementById("greetings").innerHTML = "\nUsername: " + username + " \nPassword: " + password;
+        document.getElementById("validator").innerHTML = "\nUsername: " + username + " \nPassword: " + password;
     }
     else {
-        
+       
         document.getElementById("validator").innerHTML = "Invalid username or password.";
+        document.getElementById("validator").style.color = "red";
     }
 }
 
-// search database for vehicle
+// search webserver for vehicle
 //function searchVehicle() {
 //    
 //    //TODO
